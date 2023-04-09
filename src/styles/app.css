@@ -1,0 +1,13 @@
+.title-wrapper {
+  @apply h-[25vh] w-full
+    flex justify-center items-center flex-col;
+}
+.title {
+  @apply text-primary font-bold
+    text-3xl md:text-5xl 
+    mt-6 md:mt-0 px-5
+    break-words text-center;
+}
+.gallery-wrapper {
+  @apply h-[75vh] w-full;
+}
