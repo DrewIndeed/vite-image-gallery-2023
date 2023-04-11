@@ -20,7 +20,7 @@ export const data = [
   {
     name: "Tim Swaan",
     description: "Tim Swaan",
-    imageUrl: "https://picsum.photos/1800/3200",
+    imageUrl: "https://picsum.photos/2000/3200",
   },
   {
     name: "v2osk",
@@ -30,7 +30,7 @@ export const data = [
   {
     name: "Lukasz Szmigiel",
     description: "Lukasz Szmigiel",
-    imageUrl: "https://picsum.photos/1800/3200",
+    imageUrl: "https://picsum.photos/1800/2800",
   },
   {
     name: "Robert Lukeman",
@@ -40,7 +40,7 @@ export const data = [
   {
     name: "Dave Hoefler",
     description: "Dave Hoefler",
-    imageUrl: "https://picsum.photos/1800/3200",
+    imageUrl: "https://picsum.photos/1200/2500",
   },
   {
     name: "Silvestri Matteo",
@@ -50,7 +50,7 @@ export const data = [
   {
     name: "Shifaaz shamoon",
     description: "Shifaaz shamoon",
-    imageUrl: "https://picsum.photos/1800/3200",
+    imageUrl: "https://picsum.photos/2300/1200",
   },
   {
     name: "niko photos",
@@ -70,7 +70,7 @@ export const data = [
   {
     name: "Thomas Kelley",
     description: "Thomas Kelley",
-    imageUrl: "https://picsum.photos/3000/2000",
+    imageUrl: "https://picsum.photos/2000/1500",
   },
   {
     name: "Vincent van Zalinge",
@@ -85,11 +85,11 @@ export const data = [
   {
     name: "Luca Bravo",
     description: "Luca Bravo",
-    imageUrl: "https://picsum.photos/3000/2000",
+    imageUrl: "https://picsum.photos/1500/4000",
   },
   {
     name: "Wil Stewart",
     description: "Wil Stewart",
-    imageUrl: "https://picsum.photos/3000/2000",
+    imageUrl: "https://picsum.photos/1000/2000",
   },
 ].sort(() => Math.random() - 0.5);
