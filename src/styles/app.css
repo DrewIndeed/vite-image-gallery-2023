@@ -1,13 +1,72 @@
-.title-wrapper {
-  @apply h-[25vh] w-full
-    flex justify-center items-center flex-col;
+.App {
+  @apply w-full h-screen
+  overflow-x-hidden overflow-y-auto;
 }
-.title {
-  @apply text-primary font-bold
-    text-3xl md:text-5xl 
-    mt-6 md:mt-0 px-5
-    break-words text-center;
-}
+
+/* Gallery component */
 .gallery-wrapper {
-  @apply h-[75vh] w-full;
+  @apply w-full h-full relative;
+}
+
+.gallery-wrapper .title {
+  @apply w-full h-[90px]
+  flex items-center justify-between
+  top-0 fixed p-4 z-[100]
+  bg-primary bg-opacity-80;
+}
+
+.gallery-wrapper .title h1 {
+  @apply font-bold text-white
+    text-[1.75em] sm:text-[2.5em];
+}
+
+.gallery-wrapper .masonry {
+  @apply w-full h-full 
+  px-[1rem] pt-[calc(90px+1rem)];
+}
+
+.gallery-wrapper .masonry .item-images {
+  @apply w-full block;
+  transition: all 0.4s ease-in-out;
+}
+
+.gallery-wrapper .masonry .item-images:hover {
+  cursor: pointer;
+  filter: brightness(0.8) grayscale(0.8);
+}
+
+.viewer-wrapper {
+  @apply w-full h-screen 
+  fixed top-0 left-0 z-[150]
+  bg-black bg-opacity-80
+  flex flex-col items-center justify-center;
+}
+
+.viewer-wrapper .target-wrapper {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  animation: fadeIn 0.4s ease-in-out forwards;
+
+  @apply flex flex-col
+  items-center justify-center
+  w-full md:w-[75%] h-[80%] md:h-full;
+}
+
+.viewer-wrapper .target-wrapper .jump-btn {
+  @apply btn btn-circle btn-ghost
+  absolute bottom-[1rem] md:bottom-auto scale-105;
+}
+
+.viewer-wrapper .target-wrapper .viewer-target {
+  width: auto;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 0.3rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
