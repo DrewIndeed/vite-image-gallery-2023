@@ -15,42 +15,42 @@ export const data = [
   {
     name: "David Marcu",
     description: "David Marcu",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Tim Swaan",
     description: "Tim Swaan",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "v2osk",
     description: "v2osk",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Lukasz Szmigiel",
     description: "Lukasz Szmigiel",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Robert Lukeman",
     description: "Robert Lukeman",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Dave Hoefler",
     description: "Dave Hoefler",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Silvestri Matteo",
     description: "Silvestri Matteo",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "Shifaaz shamoon",
     description: "Shifaaz shamoon",
-    imageUrl: "https://picsum.photos/1000/3200",
+    imageUrl: "https://picsum.photos/1800/3200",
   },
   {
     name: "niko photos",
